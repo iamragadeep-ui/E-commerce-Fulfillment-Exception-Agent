@@ -1,0 +1,17 @@
+[project]
+name = "ecommerce-fulfillment-exception-agent"
+version = "0.1.0"
+description = "Portfolio-ready agentic fulfillment exception investigation system"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
